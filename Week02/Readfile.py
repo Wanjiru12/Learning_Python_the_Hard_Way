@@ -1,5 +1,7 @@
-from sys import argv
-script, filename = argv
+#from sys import argv
+#from os.path import  exists
+#script, filename = argv
+filename = "C:/Users/cwmwai/files/file.txt"
 text = open(filename)
 print(f"Here is your {filename}")
 print(text.read())
