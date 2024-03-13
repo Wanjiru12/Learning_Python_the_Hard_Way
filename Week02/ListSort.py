@@ -8,3 +8,16 @@ print(marks)
 
 marks.sort(reverse= True, key = myfunc)
 print(marks)
+
+Animals = ["cats", "cows", "ZEBRA", "LIONS", "dogs", "GIRAFFES"]
+Animals.sort()
+print(Animals)
+
+Animals.reverse()
+print(Animals)
+
+Animals.sort(key = str.lower)
+print(Animals)
+
+
+
